@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>The survey form </title>
+</head>
+<img src "https://blog.bydrec.com/hs-fs/hubfs/5%20Must%20Know%20Stats%20About%20Software%20Developers%20Before%20You%20Hire.jpg?width=1596&height=804&name=5%20Must%20Know%20Stats%20About%20Software%20Developers%20Before%20You%20Hire.jpg" alt "form icon">
+<body>
+  <h1 id="title" >The survery form </h1>
+  <p id="description">Welcome to the feedback form! Please complete the form and submit.<p>
+
+    <form id="survey-form"    /> 
+
+    <label  id="name-label">  Name <input id="name" type="text" placeholder="Your name"    required/> </label>
+
+    <br>
+
+    <hr>
+
+  <label id="email-label">Username<input  pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$"id="email" type="email" placeholder="Your email address"   required/></label>
+
+ <br>
+<hr>
+ 
+ <label id="number-label">Age   <input id="number" type="number" min="10" max="99" placeholder="20">
+  <br>
+<hr>
+
+<label>Role
+ <input id="role" placeholder="Choose one" >
+  </label>
+  
+ <select id="dropdown" > 
+  
+  <option value="1">Student 
+  </option>
+  <option value="2"> part-time student
+  </option>
+  <option value="3 "> part-time job
+  </option>
+
+  <option value= "4"> full-time</option>
+<option value="5">Other 
+  </option>
+  </select>
+   <br>
+    <br>
+     <br>
+<hr>
+<label>Can you refer freeCodeCamp to someone <input type="radio" name="YesOrNo" value="Yes">Yes</label>
+
+<label><input type="radio" name="YesOrNo" value ="No">No<label>
+
+<br>
+   <hr> 
+
+   <p>In which category could you like to see changes</p> 
+
+
+ 
+
+<br>
+ <label id="media" >Communication platform
+   <input type="checkbox" value="Communication platform"/></label>
+
+ 
+ <br>
+ <label id="web" >Web development projects<input type="checkbox" value="Web development"></label>
+
+ <br> 
+
+  <label id="Documentation">Documentation projects   <input type="checkbox" value="Documentation"/></label>
+
+ <br>
+
+  <label for="back-end">Back-end projects  <input type="checkbox" value="back-end"/> </label>
+
+<br>
+  <label id="data-base">Database project<input type="checkbox" value="data-base"/></label>
+
+<hr>
+ 
+ <label>Please provide your comments below:
+   <br> <textarea id="comments" name="Coments" rows="3" cols="26" placeholder="comments and suggestions"></textarea>
+</label>
+
+
+</form>
+<hr>
+
+
+<button id="submit" >Submit</button>
+
+</body>
+
+</html>
+

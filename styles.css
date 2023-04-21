@@ -1,0 +1,16 @@
+h1, p, form{
+    text-align:center;
+    
+  }
+  
+  form{
+  background: #9286;
+  } 
+  
+  body {
+    background-image: url(https://blog.bydrec.com/hs-fs/hubfs/5%20Must%20Know%20Stats%20About%20Software%20Developers%20Before%20You%20Hire.jpg?width=1596&height=804&name=5%20Must%20Know%20Stats%20About%20Software%20Developers%20Before%20You%20Hire.jpg);
+  }
+  
+  button{ 
+    background-color: blue;
+    }
